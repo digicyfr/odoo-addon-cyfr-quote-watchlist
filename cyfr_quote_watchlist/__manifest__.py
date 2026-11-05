@@ -1,11 +1,12 @@
 {
     "name": "Quote Follow-up Watchlist",
     "summary": "Review expiring quotations and missing future follow-ups",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1",
     "category": "Sales",
-    "author": "Cyfr Sp. z o.o.",
+    "author": "Digicyfr (CYFR Sp. z o.o.)",
     "website": "https://digicyfr.com",
     "license": "LGPL-3",
+    "images": ["static/description/main_screenshot.png"],
     "depends": ["sale_management"],
     "data": [
         "security/ir.model.access.csv",
