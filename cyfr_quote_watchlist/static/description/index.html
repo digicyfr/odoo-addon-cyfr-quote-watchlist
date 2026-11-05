@@ -1,5 +1,26 @@
-<section class="oe_container">
-  <h2>Quote Follow-up Watchlist</h2>
-  <p>Find draft and sent quotations that are expired, expiring soon, missing a validity date, or missing a future follow-up activity.</p>
-  <p>Manual scan. Native Sales permissions. No automatic email or cancellation.</p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quote Follow-up Watchlist for Odoo 19</title>
+</head>
+<body>
+  <section class="container">
+    <h1>Quote Follow-up Watchlist</h1>
+    <p class="lead">Review quotations that are expiring, expired, or missing a future activity without changing the quote or contacting the customer.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>sale_management</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>Scan draft and sent quotations by company, salesperson, sales team and validity date in a bounded worklist.</li>
+      <li>Distinguish expired, soon-expiring and missing-date quotations from those without a future activity.</li>
+      <li>Open the native quotation or schedule a standard Odoo follow-up activity when you decide to act.</li>
+      <li>Respect the viewer’s existing Sales access; use English or Polish screens, guides and demo data.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open Sales → Orders → Quote Watchlist and scan current draft or sent quotations.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="900" alt="Odoo 19 quotation watchlist showing expiry reasons, no-future-activity flags and a future activity date">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community. Scans are temporary snapshots capped at 2,000 quotations and 500 results; refresh after a quote or activity changes. Enterprise compatibility remains unverified.</p>
+  </section>
+</body>
+</html>
